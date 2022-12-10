@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+*{
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'Lato', sans-serif ;
+   margin: 0;
+   background-image: url('https://source.unsplash.com/1600x900/?Russia');
+   font-size: 120%;
+}
+.card{
+   background: rgba(5, 5, 5, 0.568);
+   color: white;
+   padding: 2rem;
+   border-radius: 10px;
+   width: 100%;
+   max-width: 400px;
+   margin: 1rem;
+}
+.search {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.search-bar {
+   border: none;
+   outline: none;
+   padding: 5px 3px;
+   border-radius: 3px;
+   font-family: inherit;
+   font-size: 100%;
+}
+h1{
+   margin: 0%;
+}
+button{
+   background-color: rgba(255, 255, 255, 0);
+   color: white;
+   font-size: 1.4em;
+   border: none;
+   transition: 0.3s ease;
+   cursor: pointer;
+}
+button:hover{
+   color: rgb(216, 216, 216);
+
+}
+.fa-solid {
+}
+.fa-magnifying-glass {
+}
+.weather {
+}
+.city {
+}
+.temp {
+   margin-bottom: 10px;
+}
+.icon {
+}
+.flex{
+   display: flex;
+   align-items: center;
+   
+}
+.description {
+   text-transform: capitalize;
+   margin-left: 8px;
+}
+
+.weather.loading{
+   visibility: hidden;
+   min-height: 20px;
+   position: relative;
+
+}
+.weather.loading::after{
+   visibility: visible;
+   content: 'Loading...';
+   color: white;
+   position: absolute ;
+   font-size: 40px;
+}
+.humidity {
+}
+.wind {
+}
